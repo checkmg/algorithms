@@ -6,6 +6,7 @@ public class BubbleSort {
 
 	public List<Integer> sort(List<Integer> input) {
 		boolean swapped = false;		
+		//n^2 Complexity
 		for(int i=0; i < input.size(); i++) {
 			if(i != input.size()-1) {
 				if(input.get(i) >= input.get(i+1)) {
